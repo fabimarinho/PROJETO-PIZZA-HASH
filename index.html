@@ -20,39 +20,41 @@
     <!-- <ion-icon name="logo-instagram"></ion-icon> Instagram -->
     <!-- <ion-icon name="logo-twitter"></ion-icon> Twitter -->
     <!-- <ion-icon name="logo-linkedin"></ion-icon> LinkedIn -->
-    <header>
-      <a href="#"><img src="images/logo.jpg" alt="logo pizzaria" /></a>
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="images/logo.jpg" alt="logo pizzaria"
+      /></a>
 
-      <nav>
+      <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">Sobre</a>
         <a href="#menu">Menu</a>
         <a href="#sale">Promoções</a>
         <a href="#review">Avaliações</a>
       </nav>
-      <div>
+      <div class="icons">
         <div><ion-icon name="person"></ion-icon></div>
         <div><ion-icon name="cart"></ion-icon></div>
         <div><ion-icon name="search"></ion-icon></div>
-        <div><ion-icon name="menu"></ion-icon></div>
+        <div id="menu-btn"><ion-icon name="menu"></ion-icon></div>
       </div>
     </header>
     <main>
       <!-- SEÇÃO HOME -->
-      <section id="home">
-        <div>
+      <section class="home">
+        <div class="content">
           <h3>Bem vindo a PizzaHash!</h3>
           <p>
             Descubra o sabor autêntico das nossas pizzas artesanais, preparadas
             com ingredientes frescos e de alta qualidade. Venha experimentar uma
             experiência gastronômica inesquecível!
           </p>
-          <button><a href="#">Faça o seu pedido!</a></button>
+          <a href="#" class="btn">Faça o seu pedido!</a>
         </div>
       </section>
       <!-- SEÇÃO ABOUT/SOBRE -->
       <section id="about">
-        <h1><span>Sobre </span> Nós</h1>
+        <h1 class="heading"><span>SOBRE </span> Nós</h1>
         <div><img src="images/sobre.jpg" alt="imagem sobre nós" /></div>
 
         <div>
@@ -70,7 +72,7 @@
             partir de tomates frescos e especiarias únicas.
           </p>
 
-          <a href="#">Saiba Mais</a>
+          <a href="#" class="btn">Saiba Mais</a>
         </div>
       </section>
       <!-- SEÇÃO MENU -->
@@ -108,7 +110,7 @@
               "R$ 75.99"
               <span>80.99</span>
             </div>
-            <a href="#">Adicionar ao carrinho</a>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
           </div>
         </div>
         <div class="box-container">
@@ -119,7 +121,7 @@
               "R$ 45.99"
               <span>50.99</span>
             </div>
-            <a href="#">Adicionar ao carrinho</a>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
           </div>
         </div>
         <div class="box-container">
@@ -130,7 +132,7 @@
               "R$ 55.99"
               <span>60.99</span>
             </div>
-            <a href="#">Adicionar ao carrinho</a>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
           </div>
         </div>
         <div class="box-container">
@@ -141,13 +143,13 @@
               "R$ 85.99"
               <span>109.99</span>
             </div>
-            <a href="#">Adicionar ao carrinho</a>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
           </div>
         </div>
       </section>
       <!-- SEÇÃO SALE/PROMOÇÕES -->
       <section id="products">
-        <h1><span>COMBOS E </span> PROMOÇÕES</h1>
+        <h1 class="heading"><span>COMBOS E </span> PROMOÇÕES</h1>
         <div class="box-container">
           <div class="box">
             <div>
@@ -215,7 +217,7 @@
       </section>
       <!-- REVIEW / AVALIAÇÕES-->
       <section id="#review">
-        <h1>O QUE NOSSOS <span>CLIENTES DIZEM</span></h1>
+        <h1 class="heading">O QUE NOSSOS <span>CLIENTES DIZEM</span></h1>
         <div class="box-container">
           <div class="box">
             <p>
