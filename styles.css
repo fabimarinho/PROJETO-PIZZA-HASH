@@ -175,3 +175,48 @@ section {
 }
 
 /* SOBRE/ABOUT */
+
+.about .row {
+  display: flex;
+  align-items: center;
+  background: var(--bg-card);
+  flex-wrap: wrap;
+  border: var(--border);
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+.about .row .content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about .row .content p {
+  font-size: 1.6rem;
+  color: #ccc;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+/* MENU */
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .box-container .box {
+  padding: 5rem;
+  text-align: center;
+  border: var(--border);
+  background: var(--bg-card);
+}
