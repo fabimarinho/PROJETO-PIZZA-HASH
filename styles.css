@@ -218,5 +218,213 @@ section {
   padding: 5rem;
   text-align: center;
   border: var(--border);
-  background: var(--bg-card);
+  background-color: var(--bg-card);
+}
+
+.menu .box-container .box img {
+  height: 18rem;
+  border-radius: 100%;
+}
+
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+  background: #fff;
+}
+
+.menu .box-container .box:hover > * {
+  color: black;
+}
+
+/*PRODUCTS/PROMOÇÃO */
+
+.products .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.products .box-container .box {
+  text-align: center;
+  border: var(--border);
+  padding: 2rem;
+}
+
+.products .box-container .box .icons a ion-icon {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 1.7rem;
+  border: var(--border);
+  color: #fff;
+  margin: 0.3rem;
+}
+
+.products .box-container .box .icons a ion-icon:hover {
+  background: var(--main-color);
+}
+
+.products .box-container .box .image {
+  padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img {
+  height: 25rem;
+}
+
+.products .box-container .box .content h3 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.products .box-container .box .content .stars {
+  padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i {
+  font-size: 1.9rem;
+  color: var(--main-color);
+}
+
+.products .box-container .box .content .price {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price span {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+/* REVIEW / AVALIAÇÕES */
+
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box-container .box {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: var(--border);
+}
+
+.review .box-container .box p {
+  font-size: 1.7rem;
+  color: #ccc;
+  line-height: 1.8;
+  padding: 2rem 0;
+}
+
+.user {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+.review .box-container .box .stars {
+  font-size: 1.7rem;
+  color: var(--main-color);
+}
+
+/* FOOTER / RODAPÉ */
+.heading-footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.heading-footer span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.footer {
+  background: var(--bg);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+
+.footer-col {
+  flex: 1 1 25rem;
+  margin: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: var(--main-color);
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.footer .social-links a {
+  color: #ccc;
+  font-size: 3rem;
+  transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--main-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  border-top: var(--border);
+  margin-top: 2rem;
+  color: #ccc;
 }
